@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Cormorant Garamond', serif;
+  --font-sans: 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
+  --color-cream: #fff8f0;
+  --color-ink: #3b2a30;
+  --color-rose: #b4506e;
+  --color-rose-dark: #7a2f49;
+  --color-rose-soft: #f8d7df;
+  --color-rose-line: #e9b8c6;
+  --color-mint: #d5ebdd;
+  --color-mint-dark: #2f6b57;
+  --color-sand: #fbe8c8;
+}

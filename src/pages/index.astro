@@ -1,11 +1,114 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { Image } from 'astro:assets';
+import Confetti from '../components/Confetti.astro';
+import GiftList from '../components/GiftList';
+import RsvpDialog from '../components/RsvpDialog';
+import gifts from '../data/gifts.json';
+import '../styles/global.css';
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chá de casa nova do Bibi e da Juju</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Nunito+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="relative overflow-x-hidden bg-cream font-sans text-ink">
+    <Confetti />
+    <main
+      class="relative mx-auto flex max-w-5xl flex-col items-center gap-10 px-6 pb-16 pt-10"
+    >
+      <header class="w-full max-w-3xl text-center">
+        <svg
+          viewBox="0 0 800 250"
+          role="img"
+          aria-label="chá de casa nova do bibi e da juju"
+          class="h-auto overflow-visible w-full"
+        >
+          <path id="arc" d="M50 215 Q400 -45 750 215" fill="none"></path>
+          <text
+            font-family="'Cormorant Garamond', serif"
+            font-weight="600"
+            font-size="96"
+            fill="#7A2F49"
+            letter-spacing="3"
+          >
+            <textPath href="#arc" startOffset="50%" text-anchor="middle"
+              >chá de casa nova</textPath
+            >
+          </text>
+          <text
+            x="400"
+            y="240"
+            text-anchor="middle"
+            font-family="'Cormorant Garamond', serif"
+            font-style="italic"
+            font-weight="600"
+            font-size="72"
+            fill="#2F6B57">do bibi e da juju</text
+          >
+        </svg>
+      </header>
+      <Image
+        src="/nois.png"
+        alt="Nois"
+        class="w-full max-w-lg object-cover"
+        width={523}
+        height={541}
+        loading="eager"
+        fetchpriority="high"
+      />
+      <section
+        class="flex max-w-xl flex-col gap-4 text-center text-lg leading-relaxed"
+      >
+        <p>
+          Estamos de casa nova e não poderíamos deixar de comemorar esse momento
+          com as pessoas que fazem parte da nossa vida!
+        </p>
+        <p>
+          Queremos muito ter vocês com a gente no nosso chá de casa nova, no dia <strong
+            >[DATA]</strong
+          >, às <strong>[HORÁRIO]</strong>, em <strong>[ENDEREÇO]</strong>.
+        </p>
+        <p>
+          A comemoração será em janeiro, mas estamos mandando o convite com
+          antecedência porque queremos que todo mundo consiga se organizar pra
+          estar com a gente. Se você está recebendo esse convite, saiba que foi
+          escolhido com muito carinho. Queremos celebrar nossa casa nova ao lado
+          de pessoas que amamos!
+        </p>
+        <p>
+          A comida fica por nossa conta! Só pedimos que cada um traga a sua
+          bebida pra brindar com a gente 😉
+        </p>
+        <p>
+          Se quiserem nos presentear, preparamos uma listinha com algumas
+          sugestões logo abaixo. Os valores vão direto pra nossa conta, então
+          vocês podem escolher um presente ou contribuir com qualquer quantia,
+          pelo pix ou cartão.
+        </p>
+        <p>
+          Se preferirem comprar o presente diretamente pelo link e entregar
+          pessoalmente, também podem! Só pedimos que avisem a gente o que
+          escolheram pra gente atualizar a lista e evitar presentes repetidos.
+        </p>
+        <p>
+          E claro, mais do que qualquer presente, a alegria é poder dividir esse
+          momento com vocês. esperamos todos lá! ❤️
+        </p>
+      </section>
+      <RsvpDialog client:load />
+      <GiftList client:load gifts={gifts} />
+      <footer class="font-display text-2xl italic text-mint-dark">
+        Com carinho, Bibi e Juju
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Jogo de taças",
+    "image": "/products/jogo-de-tacas.webp",
+    "price": 180,
+    "done": false,
+    "stripeUrl": "https://buy.stripe.com/[LINK]"
+  },
+  {
+    "id": 2,
+    "title": "Cafeteira",
+    "image": "/products/cafeteira.webp",
+    "price": 320,
+    "done": true,
+    "stripeUrl": "https://buy.stripe.com/[LINK]"
+  },
+  {
+    "id": 3,
+    "title": "Kit de toalhas",
+    "image": "/products/kit-toalhas.webp",
+    "price": 150,
+    "done": false,
+    "stripeUrl": "https://buy.stripe.com/[LINK]"
+  },
+  {
+    "id": 4,
+    "title": "Air fryer",
+    "image": "/products/air-fryer.jpg",
+    "price": 450,
+    "done": false,
+    "stripeUrl": "https://buy.stripe.com/[LINK]"
+  },
+  {
+    "id": 5,
+    "title": "Jogo de panelas",
+    "image": "/products/jogo-de-panelas.webp",
+    "price": 600,
+    "done": false,
+    "stripeUrl": "https://buy.stripe.com/[LINK]"
+  },
+  {
+    "id": 6,
+    "title": "Luminária",
+    "image": "/products/luminaria.jpg",
+    "price": 220,
+    "done": false,
+    "stripeUrl": "https://buy.stripe.com/[LINK]"
+  }
+]
