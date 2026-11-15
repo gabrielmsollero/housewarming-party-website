@@ -199,6 +199,7 @@ export default function GiftList({ gifts }: { gifts: Gift[] }) {
                 <a
                   href={item.productUrl}
                   className="mt-2 text-center underline text-rose-dark"
+                  target="_blank"
                 >
                   Ver no site
                 </a>
