@@ -1,50 +1,695 @@
 [
-  {
-    "id": 1,
-    "title": "Jogo de taças",
-    "image": "/products/jogo-de-tacas.webp",
-    "price": 180,
-    "done": false,
-    "stripeUrl": "https://buy.stripe.com/[LINK]"
-  },
-  {
-    "id": 2,
-    "title": "Cafeteira",
-    "image": "/products/cafeteira.webp",
-    "price": 320,
-    "done": true,
-    "stripeUrl": "https://buy.stripe.com/[LINK]"
-  },
-  {
-    "id": 3,
-    "title": "Kit de toalhas",
-    "image": "/products/kit-toalhas.webp",
-    "price": 150,
-    "done": false,
-    "stripeUrl": "https://buy.stripe.com/[LINK]"
-  },
-  {
-    "id": 4,
-    "title": "Air fryer",
-    "image": "/products/air-fryer.jpg",
-    "price": 450,
-    "done": false,
-    "stripeUrl": "https://buy.stripe.com/[LINK]"
-  },
-  {
-    "id": 5,
-    "title": "Jogo de panelas",
-    "image": "/products/jogo-de-panelas.webp",
-    "price": 600,
-    "done": false,
-    "stripeUrl": "https://buy.stripe.com/[LINK]"
-  },
-  {
-    "id": 6,
-    "title": "Luminária",
-    "image": "/products/luminaria.jpg",
-    "price": 220,
-    "done": false,
-    "stripeUrl": "https://buy.stripe.com/[LINK]"
-  }
+    {
+        "id": 1,
+        "title": "Televisão",
+        "image": "/products/televisao.webp",
+        "price": 3679,
+        "done": false,
+        "productUrl": "https://www.carrefour.com.br/produto/samsung-smart-tv-65-mini-led-4k-m75h-2027-vision-ai-companion-modo-futebol-xbox-cloud-gaming-canais-gratuitos-7-anos-de-atualizacao-340396979?gad_campaignid=23628861811&gad_source=1&gbraid=0AAAAADjinolES6-MEI2mfat4eD20n5cHm&gclid=CjwKCAiAquDXBhApEiwAoyNqBCaVCr7oUAHtakjA1HpnoT6RlglxNuFfBQjCuc5n_0qzGal6K1dHbxoC5pkQAvD_BwE&utm_campaign=google_shopping_1P_apostas-geral_05-03-26&utm_medium=sem&utm_source=google_shopping_1p",
+        "stripeUrl": "https://buy.stripe.com/00w7sN1tO1czaiXbOG8Vi01"
+    },
+    {
+        "id": 2,
+        "title": "Geladeira",
+        "image": "/products/geladeira.webp",
+        "price": 5554,
+        "done": false,
+        "productUrl": "https://www.brastemp.com.br/geladeira-inteligente-b-smart-brastemp-frost-free-3-portas-486-litros-cor-inox---bro78ak/p",
+        "stripeUrl": "https://buy.stripe.com/3cIfZj8WgbRd1Mrf0S8Vi02"
+    },
+    {
+        "id": 3,
+        "title": "Cervejeira",
+        "image": "/products/cervejeira.webp",
+        "price": 1799,
+        "done": false,
+        "productUrl": "https://site.fastshop.com.br/cervejeira-consul-titanium---czd12mt-coczd12mt_prd/p?idsku=171657&utm_source=google&utm_medium=cpc&utm_term=pmax_1p&utm_campaign=22746909051&gad_source=1&gad_campaignid=22746909051&gclid=CjwKCAjwo5bXBhAEEiwAkgpgXBUqtwvSqrRwY8rQY14bWrwQfSdLYO1b9gl21fScLuEO7V_aU36xLxoC4rAQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/00w3cxb4o08v9eT05Y8Vi03"
+    },
+    {
+        "id": 4,
+        "title": "Máquina de lavar",
+        "image": "/products/maquina-de-lavar.webp",
+        "price": 3799,
+        "done": false,
+        "productUrl": "https://loja.electrolux.com.br/lava-e-seca-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente--lsc12-/p",
+        "stripeUrl": "https://buy.stripe.com/00w9AV4G0g7tdv9cSK8Vi04"
+    },
+    {
+        "id": 5,
+        "title": "Airfryer",
+        "image": "/products/airfryer.webp",
+        "price": 809,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/forno-e-fritadeira-sem-oleo-oster-42l-french-door-2-em-1-cor-prateado-tssttvfdmaf/p/MLB22477586?pdp_filters=item_id%3AMLB4201691847&from=gshop&matt_tool=22683844&matt_word=&matt_source=google&matt_campaign_id=22090193735&matt_ad_group_id=194474625114&matt_match_type=&matt_network=g&matt_device=c&matt_creative=792355615392&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB22477586-product&matt_product_partition_id=2524625403324&matt_target_id=pla-2524625403324&cq_src=google_ads&cq_cmp=22090193735&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090193735&gbraid=0AAAAAD93qcAXYbsD6S6-hq5eL9v_L4yGq&gclid=CjwKCAiAquDXBhApEiwAoyNqBB6McqETLZ2mUQurXFcDDAOfvsrjhLJR0Um7AbYUlvRgje6PgFZtEhoCnGwQAvD_BwE#&gid=1&pid=1",
+        "stripeUrl": "https://buy.stripe.com/3cIfZj6O8bRd8aPbOG8Vi05"
+    },
+    {
+        "id": 6,
+        "title": "Liquidificador",
+        "image": "/products/liquidificador.webp",
+        "price": 799,
+        "done": false,
+        "productUrl": "https://www.kitchenaid.com.br/liquidificador-pure-power-kitchenaid-black-matte-kua20ap/p",
+        "stripeUrl": "https://buy.stripe.com/9B628t7Sc2gD76L05Y8Vi06"
+    },
+    {
+        "id": 7,
+        "title": "Batedeira",
+        "image": "/products/batedeira.webp",
+        "price": 2249,
+        "done": false,
+        "productUrl": "https://www.kitchenaid.com.br/batedeira-stand-mixer-kitchenaid-empire-red-kea33cv/p",
+        "stripeUrl": "https://buy.stripe.com/00w14p2xS7AX8aP4me8Vi07"
+    },
+    {
+        "id": 8,
+        "title": "Chaleira elétrica",
+        "image": "/products/chaleira-eletrica.webp",
+        "price": 107,
+        "done": false,
+        "productUrl": "https://www.leroymerlin.com.br/chaleira-eletrica-oster-inox-2l_1572382822?region=outros&utm_term=AMP_ANTECIPA-BF&gad_source=1&gad_campaignid=23686326176&gbraid=0AAAAADkzLZ5eNG_6FQlk6haP2JFhdf6QN&gclid=CjwKCAjwo5bXBhAEEiwAkgpgXJuAkGvmV-IfM1o-nm7hjxZdfhah5NoHMo65ceIoaNWBtzLWManNixoCs1gQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/7sYfZj7Sc1cz0Ing4W8Vi08"
+    },
+    {
+        "id": 9,
+        "title": "Microondas",
+        "image": "/products/microondas.webp",
+        "price": 1487,
+        "done": false,
+        "productUrl": "https://www.magazineluiza.com.br/micro-ondas-de-embutir-electrolux-34l-me3-preto/p/bd477ek01c/ed/mond/?seller_id=angeloni2",
+        "stripeUrl": "https://buy.stripe.com/eVq4gB4G0bRd4YD7yq8Vi09"
+    },
+    {
+        "id": 10,
+        "title": "Fogão",
+        "image": "/products/fogao.webp",
+        "price": 1749,
+        "done": false,
+        "productUrl": "https://site.fastshop.com.br/cooktop-electrolux-5-bocas-pro-series-com-mesa-de-vidro--ke5ps--exke5ps_prd-101261/p",
+        "stripeUrl": "https://buy.stripe.com/8x23cx8Wgf3pgHl4me8Vi0a"
+    },
+    {
+        "id": 11,
+        "title": "Depurador",
+        "image": "/products/depurador.webp",
+        "price": 2999,
+        "done": false,
+        "productUrl": "https://share.google/8OhqhQZRBInJqc8Jw",
+        "stripeUrl": "https://buy.stripe.com/9B6eVf3BW5sPgHl05Y8Vi0b"
+    },
+    {
+        "id": 12,
+        "title": "Soundbar",
+        "image": "/products/soundbar.webp",
+        "price": 854,
+        "done": false,
+        "productUrl": "https://www.magazineluiza.com.br/soundbar-jbl-cinema-2-1-bluetooth-com-subwoofer-sem-fio-110w-usb/p/240455000/ea/sdbr/?&seller_id=magazineluiza&utm_source=google&utm_medium=cpc&utm_term=87618&utm_campaign=google_eco_per_ven_pla_curva_b_sor_1p_ea_wea_pva-ga-wea-0326&utm_content=&partner_id=87618&gclsrc=aw.ds&gad_source=1&gad_campaignid=24279394765&gbraid=0AAAAAD4zZmSK4EM3CfGJSi4Ts0jp_jtWL&gclid=CjwKCAiAquDXBhApEiwAoyNqBAz5zwFbefcivN_HBY3pcVxaZpmvl-e3SWB6_ZkUrlA_LjBMJskDgxoCthkQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/8x29AV5K408v4YD8Cu8Vi0c"
+    },
+    {
+        "id": 13,
+        "title": "Aspirador",
+        "image": "/products/aspirador.webp",
+        "price": 744,
+        "done": false,
+        "productUrl": "https://loja.wap.ind.br/robo-aspirador-de-po-wap-robot-w96/p",
+        "stripeUrl": "https://buy.stripe.com/bJe8wR0pK4oLezd5qi8Vi0d"
+    },
+    {
+        "id": 14,
+        "title": "Travesseiros",
+        "image": "/products/travesseiros.webp",
+        "price": 160,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/travesseiro-home-style-by-buddemeyer-cloud/-/A-300034934-br.lc?sku=000000000000034934",
+        "stripeUrl": "https://buy.stripe.com/cNidRb8Wg9J54YDcSK8Vi0e"
+    },
+    {
+        "id": 15,
+        "title": "Colcha",
+        "image": "/products/colcha.webp",
+        "price": 420,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/jogo-de-colcha-home-style-kaya/-/A-101569458-br.lc?sku=101569466",
+        "stripeUrl": "https://buy.stripe.com/eVq6oJfkEf3p76LbOG8Vi0f"
+    },
+    {
+        "id": 16,
+        "title": "Tapete de banheiro",
+        "image": "/products/tapete-de-banheiro.webp",
+        "price": 70,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/tapete-para-banheiro-home-style-heim/-/A-100819195-br.lc?sku=100819208",
+        "stripeUrl": "https://buy.stripe.com/9B6dRb1tOcVh76L7yq8Vi0g"
+    },
+    {
+        "id": 17,
+        "title": "Toalha",
+        "image": "/products/toalha.webp",
+        "price": 266,
+        "done": false,
+        "productUrl": "https://www.karsten.com.br/jogo-banhao-e-rosto-4-pecas-fio-zero-twist-roma-gris-0021235/p",
+        "stripeUrl": "https://buy.stripe.com/8x228tc8sf3p0InaKC8Vi0h"
+    },
+    {
+        "id": 18,
+        "title": "Lençóis",
+        "image": "/products/lencois.webp",
+        "price": 190,
+        "done": false,
+        "productUrl": "https://www.samsclub.com.br/produto/jogo-de-lencol-250-fios-casal-sortido-members-mark-149981",
+        "stripeUrl": "https://buy.stripe.com/3cI14p2xS3kH8aPcSK8Vi0i"
+    },
+    {
+        "id": 19,
+        "title": "Capacho",
+        "image": "/products/capacho.webp",
+        "price": 100,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/capacho-home-style-daisy-60-x-40-cm/-/A-101582249-br.lc?sku=101582257",
+        "stripeUrl": "https://buy.stripe.com/8x228t4G01czcr5aKC8Vi0j"
+    },
+    {
+        "id": 20,
+        "title": "Cabides",
+        "image": "/products/cabides.webp",
+        "price": 50,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B0FYMFQNWX?lv=shuf&hvlocphy=9101250&linkCode=df0&hvptwo=&mcid=3749269b43bd307c9c52121afc110f96&hvnetw=g&hvadid=773957634901&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=16085952679197526395-B0FYMFQNWX-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-2505648172301&hvrand=16085952679197526395&channelId=425&ref_=asc_df_B0FYMFQNWX&plpRedirect=mhFallback&th=1",
+        "stripeUrl": "https://buy.stripe.com/8x2eVf4G0cVh2Qv4me8Vi0k"
+    },
+    {
+        "id": 21,
+        "title": "Lixos de banheiro",
+        "image": "/products/lixos-de-banheiro.webp",
+        "price": 70,
+        "done": false,
+        "productUrl": "https://www.ou.com.br/products/lixeira-ou-6l-linha-bold?variant=46344061649117",
+        "stripeUrl": "https://buy.stripe.com/9B6bJ33BW6wTcr5cSK8Vi0l"
+    },
+    {
+        "id": 22,
+        "title": "Lixo plástico",
+        "image": "/products/lixo-plastico.webp",
+        "price": 44,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/LIXEIRA-COM-TAMPA-LTS-PRETA/dp/B098PS1CNB/ref=pd_rhf_dp_s_pd_sbs_rvi_d_sccl_2_1/137-1782865-0946263?pd_rd_w=fpztG&content-id=amzn1.sym.2e62a854-61cd-457b-9527-d66d57ab9868&pf_rd_p=2e62a854-61cd-457b-9527-d66d57ab9868&pf_rd_r=DVVNVPHDTA3KYYATQ2VM&pd_rd_wg=wOL1z&pd_rd_r=1c6010c7-f964-4f72-aa8c-6dfc73e88b98&pd_rd_i=B098PS1CNB&psc=1",
+        "stripeUrl": "https://buy.stripe.com/7sY6oJ7ScaN9ezd3ia8Vi0m"
+    },
+    {
+        "id": 23,
+        "title": "Lixo cozinha",
+        "image": "/products/lixo-cozinha.webp",
+        "price": 35,
+        "done": false,
+        "productUrl": "https://www.ou.com.br/products/lixeira-para-pia-da-cozinha-ou-4-7l-linha-trium?variant=46344056996061",
+        "stripeUrl": "https://buy.stripe.com/9B6eVf7Sc3kH4YDbOG8Vi0n"
+    },
+    {
+        "id": 24,
+        "title": "Escova de privada",
+        "image": "/products/escova-de-privada.webp",
+        "price": 70,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/escova-sanitaria-pipe/-/A-100802772-br.lc?sku=100802781",
+        "stripeUrl": "https://buy.stripe.com/8x24gB8Wg2gDfDhg4W8Vi0o"
+    },
+    {
+        "id": 25,
+        "title": "Jogo de banheiro de sabão",
+        "image": "/products/jogo-de-banheiro-de-sabao.webp",
+        "price": 48,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/porta-sabonete-liquido-em-ceramica-struttu-branco/BT097CP61QXAWW-1974869.html",
+        "stripeUrl": "https://buy.stripe.com/00w5kF5K4g7t62H4me8Vi0p"
+    },
+    {
+        "id": 26,
+        "title": "Porta rolo de papel",
+        "image": "/products/porta-rolo-de-papel.webp",
+        "price": 140,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/porta-rolo-de-papel-higienico-home-style-lines/-/A-100828884-br.lc?sku=100828892",
+        "stripeUrl": "https://buy.stripe.com/00weVf1tO3kHdv97yq8Vi0q"
+    },
+    {
+        "id": 27,
+        "title": "Porta lavabo",
+        "image": "/products/porta-lavabo.webp",
+        "price": 70,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/porta-toalha-de-lavabo-home-style-lines/-/A-100828841-br.lc?sku=100828850",
+        "stripeUrl": "https://buy.stripe.com/6oU7sNb4odZl1Mr8Cu8Vi0r"
+    },
+    {
+        "id": 28,
+        "title": "Caixa organizadora",
+        "image": "/products/caixa-organizadora.webp",
+        "price": 108,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/cesto-com-tampa-em-bambu-grid-branco/OU121CP72WYAWW-1662621.html",
+        "stripeUrl": "https://buy.stripe.com/fZucN76O81czcr58Cu8Vi0s"
+    },
+    {
+        "id": 29,
+        "title": "Luva de borracha",
+        "image": "/products/luva-de-borracha.webp",
+        "price": 40,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B0GTX7GSR8?lv=shuf&hvlocphy=9101250&linkCode=df0&hvptwo=&mcid=07dea7329e7b3637bd99bc8b59d63a2a&hvnetw=g&hvadid=709857067800&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=4679079905183129749-B0GTX7GSR8-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-2479330824890&hvrand=4679079905183129749&channelId=425&ref_=asc_df_B0GTX7GSR8&plpRedirect=mhFallback&th=1",
+        "stripeUrl": "https://buy.stripe.com/7sYfZjegA4oL1Mrg4W8Vi0t"
+    },
+    {
+        "id": 30,
+        "title": "Pano de prato",
+        "image": "/products/pano-de-prato.webp",
+        "price": 40,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/jogo-de-pano-de-prato-home-style-stripes/-/A-100416943-br.lc?sku=100903910",
+        "stripeUrl": "https://buy.stripe.com/8x23cx2xSdZl8aP6um8Vi0u"
+    },
+    {
+        "id": 31,
+        "title": "Tabuona de madeira",
+        "image": "/products/tabuona-de-madeira.webp",
+        "price": 160,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/tabua-cubus-para-churrasco-tramontina-retangular-em-madeira-mista-45x34-cm/13460991.html?gad_source=1&gad_campaignid=24382316068&gbraid=0AAAAAC9EDsK_cW1BQPlfJO3qIPfgaCayf&gclid=CjwKCAiAquDXBhApEiwAoyNqBGx8aYbANd6VI4o8TIRts6VWc-OTSZ-E7VOEpNJoND3eZwfvT4xZkhoC464QAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/9B6bJ31tO4oL4YD4me8Vi0v"
+    },
+    {
+        "id": 32,
+        "title": "Tabuinha de madeira",
+        "image": "/products/tabuinha-de-madeira.webp",
+        "price": 86,
+        "done": false,
+        "productUrl": "https://www.madearte.com.br/tabua-de-madeira-invertida-com-pega-mao-e-canaleta-linha-teca-para-churrasco-30cm",
+        "stripeUrl": "https://buy.stripe.com/5kQaEZegAf3p76L2e68Vi0w"
+    },
+    {
+        "id": 33,
+        "title": "Jogo de faca",
+        "image": "/products/jogo-de-faca.webp",
+        "price": 854,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/jogo-de-facas-tramontina-sublime-em-aco-inox-e-suporte-de-madeira-6-pecas/24099059.html?gad_source=1&gad_campaignid=23749081824&gbraid=0AAAAAC9EDsLxn3FwQrzmE5mJa9_JvifES&gclid=CjwKCAiAquDXBhApEiwAoyNqBJOl7oJhB40h7lP-x1wjwAI0s39kzNK_dO6OS1qBNledd294GwoUqBoCrJwQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/00w9AVfkEg7t62HbOG8Vi0x"
+    },
+    {
+        "id": 34,
+        "title": "Escorredor de louça",
+        "image": "/products/escorredor-de-louca.webp",
+        "price": 268,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/escorredor-de-louca-tramontina-plurale-em-aco-e-polipropileno/61537100.html",
+        "stripeUrl": "https://buy.stripe.com/aFa8wRc8s6wTfDh05Y8Vi0y"
+    },
+    {
+        "id": 35,
+        "title": "Escorredor de talher",
+        "image": "/products/escorredor-de-talher.webp",
+        "price": 40,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/escorredor-de-talheres-home-style-block/-/A-300044790-br.lc?sku=000000000000044788",
+        "stripeUrl": "https://buy.stripe.com/8x27sNegAaN976L7yq8Vi0z"
+    },
+    {
+        "id": 36,
+        "title": "Carrinho organizador",
+        "image": "/products/carrinho-organizador.webp",
+        "price": 890,
+        "done": false,
+        "productUrl": "https://www.linee.com.br/products/carrinho-organizador-wire-ii-terracota?_pos=6&_sid=56dc9d5f2&_ss=r&_su_rec=T-2ezhldwG8Ujuy6ad7_WqtJFeeNysby_j3y1xf5W5j78v27DCpwk0CXcl1zHjKVbQq4FhrN75EjpK5QU9Xi3DEUZkmgiUMiKeEUG1E_cTnLTa-yrm4IJDgWD356zm-OWj_Hzb140_RbJblBQWp8WevE3ZJfvkfatW8QZiJX98iPIgboumXAmxnZjh-39jQz1cSFVD-vIRgduV9j9zzA799BOQnDdZGppwiVGQQeafSFkC5enc-WEcJuwo65CuUNb24bSzwjh0_By2zcdWnu2tmSObwY6408ECER1gN4yldieA57_MSK0ZPOBoRQS7O4IlNhH8hQWbsK-EJRTbAv7eiC-ONBp-TeA6rUsAzIIg&_su_rec_id=1bb78d88-11cd-4a1d-a95d-9641b99dedde-1794680862",
+        "stripeUrl": "https://buy.stripe.com/7sY6oJegA9J5fDh05Y8Vi0A"
+    },
+    {
+        "id": 37,
+        "title": "Bowl louça",
+        "image": "/products/bowl-louca.webp",
+        "price": 213,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/s/Westwing/p/jogo-de-bowls-maniglia-verde/BT097CP24UNBWW-1975372.html?utm_source=google&utm_medium=cpa&utm_campaign=bob_ww_cozinha_best-sellers_cnv_ven_shopping_mesa-posta_cpa_nac_site_google&utm_content=ia_25+_cozinha_mesa-posta_cozinha_img_mesa-posta_conversao&gad_source=1&gad_campaignid=24260710254&gbraid=0AAAAAC69aO7wZYT0RYXblDpazX3X89C6W&gclid=CjwKCAiAquDXBhApEiwAoyNqBF2ZQEKXztj-HEItC6B3S9Y9IbWR2BubE58Nmejkds6yciuc-FzS8hoC6nsQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/3cI4gB0pKcVh9eT5qi8Vi0B"
+    },
+    {
+        "id": 38,
+        "title": "Bowl inox",
+        "image": "/products/bowl-inox.webp",
+        "price": 498,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B0GNCPCRYN?lv=shuf&hvlocphy=9101250&linkCode=df0&hvptwo=&psc=1&mcid=19c276742b1d3876bc8cb96d5845a7a4&hvnetw=g&hvadid=796541962718&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=5070999792363060183-B0GNCPCRYN-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-2471119197817&hvrand=5070999792363060183&channelId=425&ref_=asc_df_B0GNCPCRYN&plpRedirect=mhFallback",
+        "stripeUrl": "https://buy.stripe.com/5kQbJ33BW3kHezddWO8Vi0C"
+    },
+    {
+        "id": 39,
+        "title": "Assadeiras",
+        "image": "/products/assadeiras.webp",
+        "price": 163,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/jogo-de-assadeiras-brasil-preta/TR348CP38LCSWW-1748430.html",
+        "stripeUrl": "https://buy.stripe.com/bJe9AVfkE3kH8aPaKC8Vi0D"
+    },
+    {
+        "id": 40,
+        "title": "Assadeira de pizza",
+        "image": "/products/pizza.webp",
+        "price": 63,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/assadeira-para-pizza-brasil-grafite/TR348CP34OEZWW-1275196.html",
+        "stripeUrl": "https://buy.stripe.com/cNidRba0k6wTbn15qi8Vi0E"
+    },
+    {
+        "id": 41,
+        "title": "Colheres de servir",
+        "image": "/products/colheres-de-servir.webp",
+        "price": 108,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/jogo-de-utensilios-tramontina-em-aco-inox-4-pecas/66945710.html?gad_source=1&gad_campaignid=16780160538&gbraid=0AAAAAC9EDsJ3wqTekcW75IgfbYeice4l4&gclid=CjwKCAiAquDXBhApEiwAoyNqBFzme5PEaf_wC9ierNGCr6oVk7YDyJln3b2HXw3WoABGACqD9K5q6RoCW1wQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/bJe9AV8Wg9J53Uz9Gy8Vi0F"
+    },
+    {
+        "id": 42,
+        "title": "Jogo pegador",
+        "image": "/products/jogo-pegador.webp",
+        "price": 146,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/jogo-de-utensilios-tramontina-utility-em-aco-inox-6-pecas/66800103.html",
+        "stripeUrl": "https://buy.stripe.com/00w6oJ4G0aN962H3ia8Vi0G"
+    },
+    {
+        "id": 43,
+        "title": "Panela de pressão",
+        "image": "/products/panela-de-pressao.webp",
+        "price": 664,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/panela-de-pressao-tramontina-solar-em-aco-inox-fundo-triplo-com-5-dispositivos-de-seguranca-22-cm-6-l/62516223.html",
+        "stripeUrl": "https://buy.stripe.com/dRmeVfegAaN99eT9Gy8Vi0H"
+    },
+    {
+        "id": 44,
+        "title": "Frigideira",
+        "image": "/products/frigideira.webp",
+        "price": 297,
+        "done": false,
+        "productUrl": "https://www.polishop.com.br/panela-day-by-day-24cm-polishop/p",
+        "stripeUrl": "https://buy.stripe.com/dRmbJ36O81cz62Hf0S8Vi0I"
+    },
+    {
+        "id": 45,
+        "title": "Jogo de panela",
+        "image": "/products/jogo-de-panela.webp",
+        "price": 1329,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-chrono-em-aco-inox-com-corpo-triplo-4-pecas/65960000.html?gad_source=1&gad_campaignid=24382316068&gbraid=0AAAAAC9EDsK_cW1BQPlfJO3qIPfgaCayf&gclid=CjwKCAiAquDXBhApEiwAoyNqBDt-lgefzDpPfJuGb34QjXJ20-36N8pTrze2J4G36mf7WjeasW9h6RoCwPIQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/bJeeVfb4o7AX9eT7yq8Vi0J"
+    },
+    {
+        "id": 46,
+        "title": "Leiteira",
+        "image": "/products/leiteira.webp",
+        "price": 75,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B0BT8NQFC7?lv=shuf&hvlocphy=9101260&linkCode=df0&hvptwo=&mcid=5d0ed2e23e2231b8a27ee37de26a4eb8&hvnetw=g&hvadid=709964506256&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=13499098772326548201-B0BT8NQFC7-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-2009077240720&hvrand=13499098772326548201&channelId=425&ref_=asc_df_B0BT8NQFC7&plpRedirect=mhFallback&th=1",
+        "stripeUrl": "https://buy.stripe.com/fZuaEZ6O88F1dv9cSK8Vi0K"
+    },
+    {
+        "id": 47,
+        "title": "Potes pra guardar",
+        "image": "/products/potes-pra-guardar.webp",
+        "price": 158,
+        "done": true,
+        "productUrl": "https://www.mercadolivre.com.br/kit-12-potes-de-vidro-americano-com-tampa-150-350-e-600ml/up/MLBU1725045124?pdp_filters=item_id%3AMLB2752259588&from=gshop&matt_tool=86217123&matt_word=&matt_source=google&matt_campaign_id=23351282321&matt_ad_group_id=191545525082&matt_match_type=&matt_network=g&matt_device=c&matt_creative=787871604140&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=620847994&matt_product_id=MLBU1725045124&matt_product_partition_id=2496992739295&matt_target_id=pla-2496992739295&cq_src=google_ads&cq_cmp=23351282321&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=23351282321&gbraid=0AAAAAD93qcArD4fddiz6j7QJ1CmSsvOJW&gclid=CjwKCAiAquDXBhApEiwAoyNqBLz9kcJpThPZKjwxZlHwKQCqeTCWiCB9FV3DQc6xFJEMHt-5W9w_FhoCAP4QAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/7sY3cx7Sc2gD3Uzg4W8Vi0L"
+    },
+    {
+        "id": 48,
+        "title": "Potes para tempero",
+        "image": "/products/potes-para-tempero.webp",
+        "price": 114,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B0C829HN1T?lv=shuf&hvlocphy=9101250&linkCode=df0&hvptwo=&psc=1&mcid=43345772e4843336b475d54790d32bc4&hvnetw=g&hvadid=709874962041&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=8588220888513782790-B0C829HN1T-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-2204411143871&hvrand=8588220888513782790&channelId=425&ref_=asc_df_B0C829HN1T&plpRedirect=mhFallback",
+        "stripeUrl": "https://buy.stripe.com/3cIcN7b4o2gDbn1dWO8Vi0M"
+    },
+    {
+        "id": 49,
+        "title": "Tupperware",
+        "image": "/products/tupperware.webp",
+        "price": 60,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B0CT42NCM1?lv=shuf&hvlocphy=9101260&linkCode=df0&hvptwo=&mcid=355752f500f139e0a6235dd2759dc9ee&hvnetw=g&hvadid=709886750320&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=12113573659781624278-B0CT42NCM1-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-2292078877616&hvrand=12113573659781624278&channelId=425&ref_=asc_df_B0CT42NCM1&plpRedirect=mhFallback&th=1",
+        "stripeUrl": "https://buy.stripe.com/3cIaEZb4o2gD0Inf0S8Vi0N"
+    },
+    {
+        "id": 50,
+        "title": "Fuê",
+        "image": "/products/fue.webp",
+        "price": 40,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/jogo-de-batedor-home-style-utile/-/A-101027085-br.lc?sku=101027093",
+        "stripeUrl": "https://buy.stripe.com/aFa5kF0pKf3pcr5f0S8Vi0O"
+    },
+    {
+        "id": 51,
+        "title": "Kit panos de chão",
+        "image": "/products/kit-panos-de-chao.webp",
+        "price": 42,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/kit-10-panos-de-chao-xadrez-de-algodao-grande-70x45-cm-para-limpeza-pesada/p/MLB64982585?pdp_filters=item_id%3AMLB6217293046&from=gshop&matt_tool=96500450&matt_word=&matt_source=google&matt_campaign_id=22090193675&matt_ad_group_id=174661946084&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727914178273&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB64982585-product&matt_product_partition_id=2495902322293&matt_target_id=aud-2493594046479:pla-2495902322293&cq_src=google_ads&cq_cmp=22090193675&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090193675&gbraid=0AAAAAD93qcBdu8u4rCrlP87UsnTqr98l5&gclid=CjwKCAiAquDXBhApEiwAoyNqBMsGHhW4zesTaHk5baDloduvySseAWMRPD9Jutf7jhWY7XHYCX3HyxoCDiAQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/8x26oJ3BWbRd9eT8Cu8Vi0P"
+    },
+    {
+        "id": 52,
+        "title": "Porta guardanapo",
+        "image": "/products/porta-guardanapo.webp",
+        "price": 40,
+        "done": false,
+        "productUrl": "https://www.camicado.com.br/p/porta-papel-toalha-home-style-studio/-/A-300037295-br.lc?sku=000000000000037295",
+        "stripeUrl": "https://buy.stripe.com/bJe4gBegA2gDfDhaKC8Vi0Q"
+    },
+    {
+        "id": 53,
+        "title": "Tela para bolos",
+        "image": "/products/tela-para-bolos.webp",
+        "price": 36,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/tela-protetora-para-bolos-alimentos-paes-de-metal-345cm/up/MLBU4393761202",
+        "stripeUrl": "https://buy.stripe.com/14AcN7fkEg7tfDh6um8Vi0R"
+    },
+    {
+        "id": 54,
+        "title": "Jogo de copos",
+        "image": "/products/jogo-de-copos.webp",
+        "price": 105,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/jogo-de-copos-altos-prisma-em-cristal-ecologico/LH296CP90PFHWW-1999991.html",
+        "stripeUrl": "https://buy.stripe.com/cNi9AV3BWg7t76L9Gy8Vi0S"
+    },
+    {
+        "id": 55,
+        "title": "Jogo de taças 1",
+        "image": "/products/jogo-de-tacas-1.webp",
+        "price": 138,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/jogo-de-tacas-para-vinho-branco-xtra-transparente/FU577CP93JBNWW-1767213.html",
+        "stripeUrl": "https://buy.stripe.com/dRmdRb6O8bRd2Qv6um8Vi0T"
+    },
+    {
+        "id": 56,
+        "title": "Jogo de taças 2",
+        "image": "/products/jogo-de-tacas-2.webp",
+        "price": 208,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/jogo-de-tacas-para-vinho-tinto-em-cristal-gastro/BO177CP09LNYWW-306540.html",
+        "stripeUrl": "https://buy.stripe.com/9B67sN7Scf3p2Qv6um8Vi0U"
+    },
+    {
+        "id": 57,
+        "title": "Copo de cerveja",
+        "image": "/products/copo-de-cerveja.webp",
+        "price": 102,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/jogo-de-tacas-para-cerveja-em-cristal-aysu/BO177CP13FDQWW-653907.html",
+        "stripeUrl": "https://buy.stripe.com/aFa9AV3BW8F1bn1cSK8Vi0V"
+    },
+    {
+        "id": 58,
+        "title": "Xícaras",
+        "image": "/products/xicaras.webp",
+        "price": 138,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/jogo-c-6-xicaras-de-cafe-c-6-pires-bio-latte-120ml-porto-brasil/p/MLB27945970?pdp_filters=item_id%3AMLB4481632398&from=gshop&matt_tool=13891073&matt_word=&matt_source=google&matt_campaign_id=22090193717&matt_ad_group_id=174661962364&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727914179494&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128761&matt_product_id=MLB27945970-product&matt_product_partition_id=2498207562958&matt_target_id=aud-2493594046479:pla-2498207562958&cq_src=google_ads&cq_cmp=22090193717&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090193717&gbraid=0AAAAAD93qcDiMmTMmWzaDtOH1KvyNlyER&gclid=CjwKCAiAquDXBhApEiwAoyNqBPF2QpB6NZfAWQuPpVVVtc689zwCYxFbmcmdZsYZGY4fEE36qhArgBoCgSoQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/28EdRbb4o8F1dv9cSK8Vi0W"
+    },
+    {
+        "id": 59,
+        "title": "Faqueiro",
+        "image": "/products/faqueiro.webp",
+        "price": 450,
+        "done": false,
+        "productUrl": "https://www.oxfordporcelanas.com.br/faqueiro-em-aco-inox-42-pecas-olinda/p?idsku=60607969&utm_source=google&utm_medium=cpc&utm_campaign=21148750230-Pmax-Novos-Clientes&gad_source=1&gad_campaignid=21155641121&gbraid=0AAAAADnlgBNgC59EO9fdrPAE_6lYtWDDc&gclid=CjwKCAiAquDXBhApEiwAoyNqBNyJsmAw9ZjD6lbqEfbRrlvTKPNQr7OJAF0mnbWNHjFCNefjvOyVpxoCTogQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/4gM14pb4o7AXfDh5qi8Vi0X"
+    },
+    {
+        "id": 60,
+        "title": "Suporte para facas",
+        "image": "/products/suporte-para-facas.webp",
+        "price": 87,
+        "done": false,
+        "productUrl": "https://meli.la/1L1ybLV",
+        "stripeUrl": "https://buy.stripe.com/dRmaEZ7Sc7AX1Mrf0S8Vi0Y"
+    },
+    {
+        "id": 61,
+        "title": "Jarra",
+        "image": "/products/jarra.webp",
+        "price": 57,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/jarra-de-vidro-com-tampa-de-bambu-2l-oikos-cor-natural/p/MLB25865975?pdp_filters=item_id%3AMLB7992265150&from=gshop&matt_tool=13891073&matt_word=&matt_source=google&matt_campaign_id=22090193717&matt_ad_group_id=174661962404&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727914179497&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128761&matt_product_id=MLB25865975-product&matt_product_partition_id=2495874739854&matt_target_id=aud-2493594046479:pla-2495874739854&cq_src=google_ads&cq_cmp=22090193717&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090193717&gbraid=0AAAAAD93qcDiMmTMmWzaDtOH1KvyNlyER&gclid=CjwKCAiAquDXBhApEiwAoyNqBLTqDNbO0u5YV31evbrYIma3LJN5huArOqIuFO7isVDCyhFw9HrHTxoCsaMQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/fZubJ32xSg7t3Uz5qi8Vi0Z"
+    },
+    {
+        "id": 62,
+        "title": "Petisqueira",
+        "image": "/products/petisqueira.webp",
+        "price": 93,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/jogo-de-petisqueiras-com-bandeja-essence-preto/BT097CP56BFGWW-2003385.html",
+        "stripeUrl": "https://buy.stripe.com/00wfZj4G0bRdcr5cSK8Vi10"
+    },
+    {
+        "id": 63,
+        "title": "Aparelho fondue",
+        "image": "/products/aparelho-fondue.webp",
+        "price": 96,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/conjunto-para-fondue-10-pecas-eleganza-black-decker-com-base-e-garfos-inox-cinza/p/MLB69274186?pdp_filters=item_id:MLB7016024130&matt_tool=68350326&matt_internal_campaign_id=345596652&matt_word=&matt_source=google&matt_campaign_id=24259142846&matt_ad_group_id=200987376915&matt_match_type=&matt_network=g&matt_device=c&matt_creative=825207169619&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5330602411&matt_product_id=MLB7016024130&matt_product_partition_id=2422079412860&matt_target_id=aud-2493594046479:pla-2422079412860&cq_src=google_ads&cq_cmp=24259142846&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=24259142846&gbraid=0AAAAAD93qcAZaU-gf-qL2S2Zk_UZ1HAKI&gclid=CjwKCAiAquDXBhApEiwAoyNqBPfTc4tZu3Gl4tOc1OISKzsaMwfW0FJ9brHdy6UiFV7Hyi8bRYD5HBoC8QUQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/bJe4gB7ScaN9gHl7yq8Vi11"
+    },
+    {
+        "id": 64,
+        "title": "Ralador zester",
+        "image": "/products/ralador-zester.webp",
+        "price": 45,
+        "done": false,
+        "productUrl": "https://meli.la/1jkFhHF",
+        "stripeUrl": "https://buy.stripe.com/9B6fZjb4o9J576Lf0S8Vi12"
+    },
+    {
+        "id": 65,
+        "title": "Prensador de bife",
+        "image": "/products/prensador-de-bife.webp",
+        "price": 44,
+        "done": false,
+        "productUrl": "https://meli.la/2oeSaQt",
+        "stripeUrl": "https://buy.stripe.com/aFa5kF1tO08vgHl5qi8Vi13"
+    },
+    {
+        "id": 66,
+        "title": "Ralador",
+        "image": "/products/ralador.webp",
+        "price": 13,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B0BPTVF7DT?lv=shuf&hvlocphy=9101260&linkCode=df0&hvptwo=&psc=1&mcid=6c09ef9e00bc3ca48710fed9a2db160a&hvnetw=g&hvadid=709964506241&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=2010343814788537468-B0BPTVF7DT-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-2295218571745&hvrand=2010343814788537468&channelId=425&ref_=asc_df_B0BPTVF7DT&plpRedirect=mhFallback",
+        "stripeUrl": "https://buy.stripe.com/5kQ9AV2xS5sP2Qv5qi8Vi14"
+    },
+    {
+        "id": 67,
+        "title": "Mandolim",
+        "image": "/products/mandolim.webp",
+        "price": 140,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/mandolin-cortador-ralador-fatiador-legumes-inox-profissional/up/MLBU3480033989?pdp_filters=item_id%3AMLB4246065721&from=gshop&matt_tool=34775793&matt_internal_campaign_id=357550231&matt_word=&matt_source=google&matt_campaign_id=24102623919&matt_ad_group_id=204648663587&matt_match_type=&matt_network=g&matt_device=c&matt_creative=829702772367&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5682101243&matt_product_id=MLBU3480033989&matt_product_partition_id=2488237394302&matt_target_id=pla-2488237394302&cq_src=google_ads&cq_cmp=24102623919&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=24102623919&gbraid=0AAAAAD93qcBItkgl4uJCVQYHZwTn2uRKQ&gclid=CjwKCAiAquDXBhApEiwAoyNqBHDGBMtbo5MSuaW3Aw6a6yml3IpptUoIphoHwbo7eJynxz8PYwK24hoC7dEQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/28EdRb2xSf3pcr5f0S8Vi15"
+    },
+    {
+        "id": 68,
+        "title": "Garrafa térmica para café",
+        "image": "/products/garrafa-termica-para-cafe.webp",
+        "price": 68,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B076X7H4VX?lv=shuf&hvlocphy=9101260&linkCode=df0&hvptwo=&mcid=c44e53540aa63153ab4d0ada37a89b62&hvnetw=g&hvadid=709964506256&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=10932536164618577350-B076X7H4VX-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-815190431172&hvrand=10932536164618577350&channelId=425&ref_=asc_df_B076X7H4VX&plpRedirect=mhFallback&th=1",
+        "stripeUrl": "https://buy.stripe.com/cNi4gBc8s2gD4YD9Gy8Vi16"
+    },
+    {
+        "id": 69,
+        "title": "Moedor de sal e pimenta",
+        "image": "/products/moedor-de-sal-e-pimenta.webp",
+        "price": 177,
+        "done": false,
+        "productUrl": "https://www.tramontina.com.br/moedor-de-sal-ou-pimenta-tramontina-em-aco-inox-e-acrilico-com-moinho-em-ceramica/61654100.html?gad_source=1&gad_campaignid=23831586617&gbraid=0AAAAAC9EDsKp_run6k03xWcaw6rlJIIjr&gclid=CjwKCAiAquDXBhApEiwAoyNqBJsuwrN8F20X54Y7dPc3QUuz_hx8dSRZp6VxPgKsALe8CJ4rUi8wvxoCvsoQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/3cIaEZgoI1cz2QvbOG8Vi17"
+    },
+    {
+        "id": 70,
+        "title": "Cinzeiro",
+        "image": "/products/cinzeiro.webp",
+        "price": 26,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/cinzeiro-em-aco-inox-redondo-10-cm-mesa-bar-inoxidavel/up/MLBU4004011397",
+        "stripeUrl": "https://buy.stripe.com/5kQaEZ3BW9J5cr54me8Vi18"
+    },
+    {
+        "id": 71,
+        "title": "Descascador de legume",
+        "image": "/products/descascador-de-legume.webp",
+        "price": 66,
+        "done": false,
+        "productUrl": "https://www.amazon.com.br/dp/B000YJDBFS?lv=shuf&hvlocphy=9101260&linkCode=df0&hvptwo=&mcid=b089c8854d1b3a789df8153c8b817d8e&hvnetw=g&hvadid=709964506289&language=pt_BR&hvpone=&hvlocint=&hvpos=&hvdev=c&hvdvcmdl=&hvocijid=3282794554433891883-B000YJDBFS-&hvqmt=&hvexpln=0&tag=googleshopp00-20&hvtargid=pla-422189956224&hvrand=3282794554433891883&channelId=425&ref_=asc_df_B000YJDBFS&plpRedirect=mhFallback&th=1",
+        "stripeUrl": "https://buy.stripe.com/00w6oJgoI7AX3Uz7yq8Vi19"
+    },
+    {
+        "id": 72,
+        "title": "Gancho para toalhas",
+        "image": "/products/gancho-para-toalhas.webp",
+        "price": 130,
+        "done": false,
+        "productUrl": "https://www.leroymerlin.com.br/kit-banheiro-inox-premium-preto-fosco-4-pecas-fino-inox_1572158616?region=outros&utm_term=AMP_ANTECIPA-BF&gad_source=1&gad_campaignid=23680893813&gbraid=0AAAAADkzLZ5yWPKBVN5NeY9TPD4gI9GRx&gclid=CjwKCAiAquDXBhApEiwAoyNqBHKe43liS_R5v4uEqA-8EthQvj67SUF0-Gr5qfVnIvncAuKLR0wTDxoCwigQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/5kQ28t3BW7AX62H7yq8Vi1a"
+    },
+    {
+        "id": 73,
+        "title": "Ferro de passar roupa",
+        "image": "/products/ferro-de-passar-roupa.webp",
+        "price": 209,
+        "done": false,
+        "productUrl": "https://www.mercadolivre.com.br/blackdecker-aspirador-a-vapor-bdv3100-200ml-preto-127220v/p/MLB72969426?pdp_filters=item_id%3AMLB5179408807&from=gshop&matt_tool=56164162&matt_word=&matt_source=google&matt_campaign_id=22090193744&matt_ad_group_id=194474655114&matt_match_type=&matt_network=g&matt_device=c&matt_creative=792355615566&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB72969426-product&matt_product_partition_id=2494069933582&matt_target_id=aud-2493594046479:pla-2494069933582&cq_src=google_ads&cq_cmp=22090193744&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090193744&gbraid=0AAAAAD93qcAr3oVHS6uenmNbSJdjlZVWu&gclid=CjwKCAiAquDXBhApEiwAoyNqBEpRYT4hGpprbLzfzPzQhnpikl_q7qYlw7B59eJ-SSCaUAU15kYe3hoCd9AQAvD_BwE",
+        "stripeUrl": "https://buy.stripe.com/6oUaEZ2xS1cz76L5qi8Vi1b"
+    },
+    {
+        "id": 74,
+        "title": "Luminária",
+        "image": "/products/luminaria.webp",
+        "price": 460,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/luminaria-de-chao-marlene-cobre----bivolt/SP400CP65JVEWW-885554.html",
+        "stripeUrl": "https://buy.stripe.com/8x2bJ3a0k8F1aiX6um8Vi1c"
+    },
+    {
+        "id": 75,
+        "title": "Passadeira",
+        "image": "/products/passadeira.webp",
+        "price": 170,
+        "done": false,
+        "productUrl": "https://www.westwing.com.br/p/passadeira-belga-bruxelas-lau-bege/ED684CP86KETWW-1359749.html",
+        "stripeUrl": "https://buy.stripe.com/fZu6oJc8sf3p76L1a28Vi1d"
+    },
+    {
+        "id": 76,
+        "title": "Cama dos cachorros",
+        "image": "/products/cama-dos-cachorros.webp",
+        "price": 290,
+        "done": false,
+        "productUrl": "https://www.caiopet.com.br/produtos/cama-luxo-madeira-com-colchao-varias-cores/?utm_medium=paid&utm_source=ig&utm_id=23855955714620225&utm_content=120252529696580226&utm_campaign=23855955714620225&utm_term=23855955715160225&fbclid=PAZnRzaAVS3vlleHRuA2FlbQEwAHBkb2YCZmRpZBZRFZf7f3A_JHEijTw-KrF74ocLTf5wYWRpZAGrOQn3sg2Cc3J0YwZhcHBfaWQPMTI0MDI0NTc0Mjg3NDE0AAGnbY2hn1C1rlo_4lhEbyDDms3qMW3n2rewAFfLAbRbNLRFuxi_RKIzWxHAHwI_aem_rRhaMq81JTKxAuffmd0G0w",
+        "stripeUrl": "https://buy.stripe.com/cNiaEZ7SccVhfDh7yq8Vi1e"
+    },
+    {
+        "id": 77,
+        "title": "Roçadeira",
+        "image": "/products/rocadeira.webp",
+        "price": 359,
+        "done": false,
+        "productUrl": "https://loja.stihl.com.br/rocadeira-bateria-fsa-45/p",
+        "stripeUrl": "https://buy.stripe.com/fZu8wRegA5sP2Qv3ia8Vi1f"
+    }
 ]

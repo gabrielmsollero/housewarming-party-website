@@ -12,6 +12,7 @@ export type Gift = {
   done: boolean;
   image?: string;
   stripeUrl?: string;
+  productUrl?: string;
 };
 
 const brl = (value: number) =>
@@ -168,7 +169,7 @@ export default function GiftList({ gifts }: { gifts: Gift[] }) {
               <img
                 src={item.image}
                 alt={item.title}
-                className="h-36 w-full object-cover"
+                className="h-36 w-full object-scale-down"
               />
             ) : (
               <div className="flex h-36 items-center justify-center bg-rose-soft text-sm font-semibold text-ink/70">
@@ -194,6 +195,14 @@ export default function GiftList({ gifts }: { gifts: Gift[] }) {
               >
                 Presentear
               </button>
+              {item.productUrl && (
+                <a
+                  href={item.productUrl}
+                  className="mt-2 text-center underline text-rose-dark"
+                >
+                  Ver no site
+                </a>
+              )}
             </div>
           </article>
         ))}
